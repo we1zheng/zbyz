@@ -4,6 +4,7 @@
 
   <view class="section section_gap" wx:for="{{array}}" wx:key="key" wx:for-item="item">
 
+
     <image style="width: {{item.sc_weight}}; height: {{item.sc_height}}; background-color: #fff;" mode="{{item.mode}}" src="{{src}}"></image>
   </view>
 

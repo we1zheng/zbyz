@@ -55,5 +55,7 @@ App({
   sc_info :{
     sc_width: null,
     sc_height: null
+
   }
+
 })
