@@ -1,7 +1,9 @@
 <!--pages/searchResult/searchResult.wxml-->
 <!-- <text>pages/searchResult/searchResult.wxml</text> -->
 <view class='searchResult'>
-  <view class="section section_gap" wx:key="{{array}}" wx:for-item="item">
+
+  <view class="section section_gap" wx:for="{{array}}" wx:key="key" wx:for-item="item">
+
     <image style="width: {{item.sc_weight}}; height: {{item.sc_height}}; background-color: #fff;" mode="{{item.mode}}" src="{{src}}"></image>
   </view>
 

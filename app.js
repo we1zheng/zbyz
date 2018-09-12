@@ -12,6 +12,7 @@ App({
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
+
     wx.getSystemInfo({
       success: res => {
         //console.log(res.model)
@@ -54,5 +55,7 @@ App({
   sc_info :{
     sc_width: null,
     sc_height: null
-  }
+
+  },
+
 })
