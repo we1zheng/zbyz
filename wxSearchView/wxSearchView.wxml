@@ -23,6 +23,7 @@
 
         <block wx:for="{{wxSearchData.tipKeys}}" wx:key="key">
 
+
           <view class="wxSearchMindKeyItem" bindtap="wxSearchKeyTap" data-key="{{item}}">{{item}}</view>
         </block>
       </view>
@@ -38,6 +39,7 @@
 
         <block wx:for="{{wxSearchData.his}}" wx:key="key">
 
+
           <view class="wxSearchKeyItem" bindtap="wxSearchKeyTap" data-key="{{item}}">{{item}}</view>
         </block>
       </view>
@@ -48,6 +50,7 @@
       <view class="wxSearchKeyList">
 
         <block wx:for="{{wxSearchData.hotKeys}}" wx:key="key">
+
 
           <view class="wxSearchKeyItem" bindtap="wxSearchKeyTap" data-key="{{item}}">{{item}}</view>
         </block>
