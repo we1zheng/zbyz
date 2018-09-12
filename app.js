@@ -27,10 +27,7 @@ App({
         }
       }
     })
-<<<<<<< HEAD
 
-=======
->>>>>>> master
     // 获取用户信息
     wx.getSetting({
       success: res => {
@@ -58,11 +55,5 @@ App({
   sc_info :{
     sc_width: null,
     sc_height: null
-<<<<<<< HEAD
-
-  },
-
-=======
-  },
->>>>>>> master
+  }
 })
