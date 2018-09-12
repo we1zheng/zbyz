@@ -1,12 +1,14 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/searchResult/searchResult"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText":"公章刻制材料查询",
     "navigationBarTextStyle":"red"
-  }
+  },
+  "cloud":true
 }

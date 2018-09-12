@@ -12,6 +12,21 @@ App({
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
+    wx.getSystemInfo({
+      success: res => {
+        //console.log(res.model)
+        //console.log(res.pixelRatio)
+        //console.log(res.windowWidth)
+        //console.log(res.windowHeight)
+        //console.log(res.language)
+        //console.log(res.version)
+        if (res.screenWidth){
+          this.sc_info.sc_width = res.screenWidth
+          this.sc_info.sc_height = res.screenHeight
+        }
+      }
+    })
+
     // 获取用户信息
     wx.getSetting({
       success: res => {
@@ -35,5 +50,9 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  sc_info :{
+    sc_width: null,
+    sc_height: null
   }
 })

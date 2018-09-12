@@ -74,7 +74,7 @@ Page({
     // do your job here
     // 示例：返回
     wx.redirectTo({
-      url: '../index/index?searchValue=返回'
+      url: '../searchResult/searchResult'
     })
   },
   getUserInfo: function(e) {

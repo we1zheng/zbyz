@@ -1,0 +1,16 @@
+<!--pages/searchResult/searchResult.wxml-->
+<!-- <text>pages/searchResult/searchResult.wxml</text> -->
+<view class='searchResult'>
+  <view class="section section_gap" wx:key="{{array}}" wx:for-item="item">
+    <image style="width: {{item.sc_weight}}; height: {{item.sc_height}}; background-color: #fff;" mode="{{item.mode}}" src="{{src}}"></image>
+  </view>
+
+    <!-- <view class='reasultTitle'>
+      <view class="group">
+        <block wx:for="{{iconType}}">
+          <icon type="{{item}}" size="40"/>
+        </block>
+      </view>
+    </view>
+     -->
+</view>
