@@ -73,7 +73,7 @@ Page({
   myGobackFunction: function () {
     // do your job here
     // 示例：返回
-    wx.redirectTo({
+    wx.navigateTo({
       url: '../searchResult/searchResult'
     })
   },
